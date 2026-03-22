@@ -78,6 +78,3 @@ python3 -m pip install -r requirements.txt
 
 ---
 
-## 许可
-
-脚本版权归原作者；若上传 GitHub，请自行添加 `LICENSE` 文件。
