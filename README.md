@@ -78,27 +78,6 @@ python3 -m pip install -r requirements.txt
 
 ---
 
-## Publishing to GitHub
-
-Suggested English repository name: **`invertebrate-reference-genome-pipeline`**
-(non‑vertebrate metazoan reference genomes: taxonomy filter → NCBI download → BUSCO).
-
-This directory is a git repository (`main` branch). To create the remote and push (requires a [Personal Access Token](https://github.com/settings/tokens) with `repo` scope):
-
-```bash
-cd /data/fengwei/code
-export GITHUB_USERNAME="your_github_username"
-export GITHUB_TOKEN="ghp_xxxxxxxx"
-bash scripts/push_to_github.sh
-```
-
-Or create an empty repo named `invertebrate-reference-genome-pipeline` on GitHub, then:
-
-```bash
-git remote add origin https://github.com/YOUR_USERNAME/invertebrate-reference-genome-pipeline.git
-git push -u origin main
-```
-
 ## 许可
 
 脚本版权归原作者；若上传 GitHub，请自行添加 `LICENSE` 文件。
